@@ -166,8 +166,10 @@
                     </div>
 
                     <div class="row mt-2">
-                        <div class="col d-flex justify-content-end">
-                            <button type="button" class="btn btn-primary" @click="fazerPedido()"> Fazer pedido</button>
+                        <div class="col d-flex justify-content-center">
+                            <button type="button" class="btn btn-lg btn-primary mt-2 mb-4 " @click="fazerPedido()">
+                                Fazer
+                                pedido</button>
                         </div>
                     </div>
 
@@ -197,7 +199,7 @@
                     </div>
 
                     <div class="row mt-4">
-                        <div class="col d-flex justify-content-around">
+                        <div class="col d-flex justify-content-around mb-4">
                             <button type="button" class="btn btn-warning" @click="etapa -= 1">Voltar para o
                                 lanche</button>
                             <button type="button" class="btn btn-success" @click="confirmarPedido()">Confirmar</button>
@@ -219,7 +221,7 @@
                     </div>
 
                     <div class="row mt-4">
-                        <div class="col d-flex justify-content-around">
+                        <div class="col d-flex justify-content-around mb-4">
                             <button type="button" class="btn btn-primary" @click="etapa =1">Repetir pedido</button>
                             <button type="button" class="btn btn-success" @click="novoPedido()">Novo pedido</button>
                         </div>
